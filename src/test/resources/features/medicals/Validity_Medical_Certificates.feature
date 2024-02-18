@@ -207,21 +207,21 @@ Feature:Certificate expiry
     Third class - Private / Recreational airline pilots under the age 40
     License cannot cannot be used to fly after 60 months
 
-        | Class | Age      | For                     | Duration  | Drops To |
-        | Third | Under 40 | Private / Recreational  | 60 months | After 60 Months cannot be used to fly              |
-        | Third | Under 40 | Private / Recreational  | 55 months |                                                    |
-        | Third | Under 40 | Private / Recreational  | 44 months |                                                    |
-        | Third | Under 40 | Private / Recreational  | 1 month   |                                                    |
+        | Class | Age      | For                     | Duration  |  Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
+        | Third | Under 40 | Private / Recreational  | 60 months |  No         |   No      |  No         |  No       |  YES       |  No        |
+        | Third | Under 40 | Private / Recreational  | 55 months |  No         |   No      |  No         |  No       |  No        |  No        |
+        | Third | Under 40 | Private / Recreational  | 44 months |  No         |   No      |  No         |  No       |  No        |  No        |
+        | Third | Under 40 | Private / Recreational  | 1 month   |  No         |   No      |  No         |  No       |  No        |  No        |
 
     Examples:The one where Adama over the age 40
     Third class - Private / Recreational airline pilots over the age 40
     License cannot cannot be used to fly after 24 months
 
-        | Class | Age      | For                     | Duration  | Drops To |
-        | Third | Over 40  | Private / Recreational  | 24 months | After 24 Months cannot be used to fly              |
-        | Third | Over 40  | Private / Recreational  | 20 months |                                                    |
-        | Third | Over 40  | Private / Recreational  | 10 months |                                                    |
-        | Third | Over 40  | Private / Recreational  | 1 month   |                                                    |
+        | Class | Age      | For                     | Duration  |  Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
+        | Third | Over 40  | Private / Recreational  | 24 months |  No         |   No      |  Yes        |  No       |  No        |  Yes       |
+        | Third | Over 40  | Private / Recreational  | 20 months |  No         |   No      |  Yes        |  No       |  No        |  No        |
+        | Third | Over 40  | Private / Recreational  | 10 months |  No         |   No      |  Yes        |  No       |  No        |  No        |
+        | Third | Over 40  | Private / Recreational  | 1 month   |  No         |   No      |  Yes        |  No       |  No        |  No        |
 
 
 
