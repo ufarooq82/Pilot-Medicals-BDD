@@ -218,10 +218,10 @@ Feature:Certificate expiry
     License cannot cannot be used to fly after 24 months
 
         | Class | Age      | For                     | Duration  |  Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
-        | Third | Over 40  | Private / Recreational  | 24 months |  No         |   No      |  Yes        |  No       |  No        |  Yes       |
-        | Third | Over 40  | Private / Recreational  | 20 months |  No         |   No      |  Yes        |  No       |  No        |  No        |
-        | Third | Over 40  | Private / Recreational  | 10 months |  No         |   No      |  Yes        |  No       |  No        |  No        |
-        | Third | Over 40  | Private / Recreational  | 1 month   |  No         |   No      |  Yes        |  No       |  No        |  No        |
+        | Third | Over 40  | Private / Recreational  | 24 months |  No         |   No      |  No         |  No       |  No        |  Yes       |
+        | Third | Over 40  | Private / Recreational  | 20 months |  No         |   No      |  No         |  No       |  No        |  No        |
+        | Third | Over 40  | Private / Recreational  | 10 months |  No         |   No      |  No         |  No       |  No        |  No        |
+        | Third | Over 40  | Private / Recreational  | 1 month   |  No         |   No      |  No         |  No       |  No        |  No        |
 
 
 
