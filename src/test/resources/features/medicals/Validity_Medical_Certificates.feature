@@ -15,25 +15,25 @@ Feature:Certificate expiry
 
   Background:
     Given the following FAA license rules :
-      |  Pilot Licenses Categories Levels |  Expiry Rules                                                                     ||     Medical certificates expires  |
-      |  Level 0                          |  First class, Under 40 , license drops to 3rd class for 48 months                 ||      Every 12 months              |
-      |  Level 1                          |  First class, Over 40  , license drops to 2nd class for 6 months                  ||      Every 6 months               |
-      |  Level 2                          |  Second class, Under 40,license drops to 3rd class for 48 months                  ||      Every 12 months              |
-      |  Level 3                          |  Second class, Over 40  , license drops to 3rd class for 12 months                ||      Every 12 months              |
-      |  Level 4                          |  Third  class, Under 40 , license cannot be used to fly                           ||      Every 60 months              |
-      |  Level 5                          |  Third  class, Over 40 , license cannot be used to fly                            ||      Every 24 months              |
+      |  Pilot Licenses Categories Levels |  Expiry Rules                                                     ||     Medical certificates expires  |
+      |  Level 0                          |  First class, Under 40 ,license drops to 3rd class for 48 months  ||      Every 12 months              |
+      |  Level 1                          |  First class, Over 40  ,license drops to 2nd class for 6 months   ||      Every 6 months               |
+      |  Level 2                          |  Second class, Under 40,license drops to 3rd class for 48 months  ||      Every 12 months              |
+      |  Level 3                          |  Second class, Over 40 ,license drops to 3rd class for 12 months  ||      Every 12 months              |
+      |  Level 4                          |  Third class, Under 40,license cannot be used to fly              ||      Every 60 months              |
+      |  Level 5                          |  Third class, Over 40 ,license cannot be used to fly              ||      Every 24 months              |
     And Mark is a FAA Officer
 
   Scenario Outline:Medical pilots license expiry rule, must renew their licenses
-
     Given Mike is a <Class> pilot
-    And   the following personal details:
+    And   his personal details are as followings:
           | Age      | For          |
           | <Age>    | <For>        |
-    When  Mike license <Duration>
-    Then  his license status should be dropped to following levels:
+    When  his last medical was on <Last Medical>
+    Then  his license status should be dropped to following <Next Level> :
       | Level 0    | | Level 1   | | Level 2     | | Level 3   | | Level 4   | | Level 5    |
       | <Level 0>  | | <Level 1> | | <Level 2>   | | <Level 3> | | <Level 4> | | <Level 5>  |
+    And his next medical should be no later than <Next Medical>
 
    @First-Class-Pilots-Rules-Journey-Scenarios
 
@@ -41,11 +41,18 @@ Feature:Certificate expiry
     First Class - commercial airline
     License drops to 3rd class for 48 months after 12 months if not renewed
 
-      | Class | Age      | For              | Duration   | Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
-      | First | Under 40 |Commercial Pilots | 12 months  | Yes        |   No      |  No         |  No       |  No        |  No        |
-      | First | Under 40 |Commercial Pilots | 6 months   | No         |   No      |   No        |  No       |  No        |  No        |
-      | First | Under 40 |Commercial Pilots | 11 months  | No         |   No      |   No        |  No       |  No        |  No        |
-      | First | Under 40 |Commercial Pilots | 5 months   | No         |   No      |   No        |  No       |  No        |  No        |
+#      | Class | Age      | For              | Duration   | Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
+#      | First | Under 40 |Commercial Pilots | 12 months  | Yes        |   No      |  No         |  No       |  No        |  No        |
+#      | First | Under 40 |Commercial Pilots | 6 months   | No         |   No      |   No        |  No       |  No        |  No        |
+#      | First | Under 40 |Commercial Pilots | 11 months  | No         |   No      |   No        |  No       |  No        |  No        |
+#      | First | Under 40 |Commercial Pilots | 5 months   | No         |   No      |   No        |  No       |  No        |  No        |
+
+
+      | Class | Age      | For              | Last Medical   | Next Level    | Next Medical |
+      | First | Under 40 |Commercial Pilots | 12 months      | Level 0       | 48 months    |
+      | First | Under 40 |Commercial Pilots | 6 months       |               |              |
+      | First | Under 40 |Commercial Pilots | 11 months      |               |              |
+      | First | Under 40 |Commercial Pilots | 5 months       |               |              |
 
 #  After 12 Months drops to third class for 48 months
 
@@ -53,11 +60,17 @@ Feature:Certificate expiry
     First class - commercial airline pilots
     License drops to 2nd class for 6 months after 6 months
 
-      | Class | Age      | For               | Duration  | Level 0    | Level 1   | Level 2     | Level 3    |  Level 4   | Level 5    |
-      | First | Over 40  | Commercial Pilots | 6 months  | No         |   Yes     |  No         |  No        |  No        |  No        |
-      | First | Over 40  | Commercial Pilots | 5 months  | No         |   No      |  No         |  No        |  No        |  No        |
-      | First | Over 40  | Commercial Pilots | 4 months  | No         |   No      |  No         |  No        |  No        |  No        |
-      | First | Over 40  |Commercial Pilots  | 1 month   | No         |   No      |  No         |  No        |  No        |  No        |
+#      | Class | Age      | For               | Duration  | Level 0    | Level 1   | Level 2     | Level 3    |  Level 4   | Level 5    |
+#      | First | Over 40  | Commercial Pilots | 6 months  | No         |   Yes     |  No         |  No        |  No        |  No        |
+#      | First | Over 40  | Commercial Pilots | 5 months  | No         |   No      |  No         |  No        |  No        |  No        |
+#      | First | Over 40  | Commercial Pilots | 4 months  | No         |   No      |  No         |  No        |  No        |  No        |
+#      | First | Over 40  |Commercial Pilots  | 1 month   | No         |   No      |  No         |  No        |  No        |  No        |
+
+      | Class | Age      | For               | Last Medical | Next Level       |  Next Medical |
+      | First | Over 40  | Commercial Pilots | 6 months     | Level 1          |   6 months    |
+      | First | Over 40  | Commercial Pilots | 5 months     | No               |               |
+      | First | Over 40  | Commercial Pilots | 4 months     | No               |               |
+      | First | Over 40  |Commercial Pilots  | 1 month      | No               |               |
 
 
 
@@ -125,21 +138,21 @@ Feature:Certificate expiry
       Second class - other commercial airline pilots under the age 40
       License drops to third class for 48 months after 12 months
 
-       | Class | Age      | For                     | Duration  | Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
-       | Second| Under 40 | Other Commercial Pilots | 12 months | No         |   No      |  Yes        |  No       |  No        |  No        |
-       | Second| Under 40 | Other Commercial Pilots | 5 months  | No         |   No      |  No         |  No       |  No        |  No        |
-       | Second| Under 40 | Other Commercial Pilots | 4 months  | No         |   No      |  No         |  No       |  No        |  No        |
-       | Second| Under 40 | Other Commercial Pilots | 1 month   | No         |   No      |  No         |  No       |  No        |  No        |
+       | Class | Age      | For                     |  Last Medical | Next Level       |  Next Medical |
+       | Second| Under 40 | Other Commercial Pilots | 12 months     | Level 2          |   48 months   |
+       | Second| Under 40 | Other Commercial Pilots | 5 months      |                  |               |
+       | Second| Under 40 | Other Commercial Pilots | 4 months      |                  |               |
+       | Second| Under 40 | Other Commercial Pilots | 1 month       |                  |               |
 
     Examples:The one where Silvia over the age 40
     Second class - other commercial airline pilots over the age 40
-    License drops to third class 12 months after 12 months
+    License drops to third class for 12 months after 12 months
 
-        | Class | Age      | For                     | Duration   | Level 0    | Level 1   | Level 2     | Level 3   |  Level 4   | Level 5    |
-        | Second| Over 40 | Other Commercial Pilots  | 12 months  | No         |   No      |  No         |  Yes      |  No        |  No        |
-        | Second| Over 40 | Other Commercial Pilots  | 5 months   | No         |   No      |  No         |  No       |  No        |  No        |
-        | Second| Over 40 | Other Commercial Pilots  | 4 months   | No         |   No      |  No         |  No       |  No        |  No        |
-        | Second| Over 40 | Other Commercial Pilots  | 1 month    | No         |   No      |  No         |  No       |  No        |  No        |
+        | Class | Age      | For                     | Last Medical |  Next Level       |  Next Medical |
+        | Second| Over 40 | Other Commercial Pilots  | 12 months    | Level 3           |   12 months   |
+        | Second| Over 40 | Other Commercial Pilots  | 5 months     |                   |               |
+        | Second| Over 40 | Other Commercial Pilots  | 4 months     |                   |               |
+        | Second| Over 40 | Other Commercial Pilots  | 1 month      |                   |               |
 
 
 
