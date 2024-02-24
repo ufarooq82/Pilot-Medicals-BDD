@@ -13,6 +13,8 @@ Feature:Certificate expiry
  #  Adam is 3rd class pilot age 29
  #  Adama is 3rd class pilot age 50
 
+
+
   Background:
     Given the following FAA license rules :
       |  Pilot Licenses Categories Levels |  Expiry Rules                                                     ||     Medical certificates expires  |
@@ -101,7 +103,6 @@ Feature:Certificate expiry
         | Third | Over 40  | Private / Recreational  | 20 months     |  No           |   No          |
         | Third | Over 40  | Private / Recreational  | 10 months     |  No           |   No          |
         | Third | Over 40  | Private / Recreational  | 1 month       |  No           |   No          |
-
 
 
 
