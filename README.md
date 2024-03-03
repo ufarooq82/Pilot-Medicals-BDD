@@ -30,6 +30,7 @@ There are also some special rules about what happens when a medical certificate 
 All of the FAA validities are measured from the last day of the month.
 
 ![image](medicals.png)
+<a href="https://github.com/serenity-dojo/challenge-1---pilot-medicals-ufarooq82/blob/reviewbranch/src/test/resources/features/medicals/Validity_Medical_Certificates.feature">Click Here to View High level AC converted into Table Diagram!</a>
 
 ## The Exercise
 
