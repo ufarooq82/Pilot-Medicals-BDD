@@ -34,6 +34,8 @@ All of the FAA validities are measured from the last day of the month.
 
 
 
+
+
 ## The Exercise
 
 The aim of this exercise is two-fold:
