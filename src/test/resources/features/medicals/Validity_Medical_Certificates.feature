@@ -1,9 +1,31 @@
+ #Start with Story
 Feature:Certificate expiry
   In order to encourage pilots to renew their medical examinations on time in a fair manner
   As an airline regulator
   I want to pilots to be downgraded to the next lowest status if they don't renew their medicals drops to 3rd class for 48 months after 12 months
 
   For full description of the feature, see https://expansion.serenity-dojo.com/courses/take/serenity-dojo-agile-and-bdd-requirements-discovery/texts/37229814-bdd-challenge-pilot-medicals
+
+  # After describe out stories, need to a few high level AC to go with user stories
+  # 1st write user stories then bullet points
+  # The key constraints , the key AC
+
+  The key acceptance criteria:
+
+  #Please check  readme.md file for High level AC converted into Table Diagram
+    README.md:34
+
+  - License should only be  valid for reminder of the month
+  - FAA validations should be measured from the last day of month
+    PILOTS     AGE       EXPIRES    DROPS ONCE EXPIRED / RULES
+    1ST CLASS  UNDER 40  12 MONTHS  3RD CLASS FOR 48 MONTHS
+    2ND CLASS  UNDER 40  12 MONTHS  3RD CLASS FOR 48 MONTHS
+    1ST CLASS  OVER 40   6 MONTHS   2ND CLASS FOR 6 MONTHS
+    2ND CLASS  OVER 40   12 MONTHS  3RD CLASS FOR 12 MONTHS
+    3RD CLASS  UNDER 40  5 YEARS    CAN'T FLY
+    3RD CLASS  OVER 40   2 YEARS    CAN'T FLY
+
+
 
  #  Personas
  #  Mike is 1st class pilot age 25
@@ -33,7 +55,7 @@ Feature:Certificate expiry
     Then  his license status should be dropped to following <Current Level>  :
       | Level 0    | | Level 1   | | Level 2     | | Level 3   | | Level 4   | | Level 5    |
       | <Level 0>  | | <Level 1> | | <Level 2>   | | <Level 3> | | <Level 4> | | <Level 5>  |
-    And his next medical should be <Next Medical>
+    And Mike should renew his <Next Medical> 
 
    @First-Class-Pilots-Rules-Journey-Scenarios
 
@@ -105,7 +127,7 @@ Feature:Certificate expiry
 
 
 
-    
+
 
 
 

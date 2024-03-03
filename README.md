@@ -31,6 +31,10 @@ All of the FAA validities are measured from the last day of the month.
 
 ![image](medicals.png)
 
+[![image](medicalAC.png)]()
+
+
+
 ## The Exercise
 
 The aim of this exercise is two-fold:
