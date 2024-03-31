@@ -37,7 +37,7 @@ https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-exe
 
 # You can see the big picture in the following diagram:
 
-! [image](Bigpicture.png)
+![image](Bigpicture.png)
 Figure 1: The Feature Mapping process^^ 
 
 You use Feature Mapping when you need to define the acceptance criteria for a story from the backlog.
@@ -52,7 +52,16 @@ And a tester, to make sure the requirements are testable.
 BAs might write some initial acceptance criteria for the story beforehand, and that’s great. 
 But these acceptance criteria can simply be one-liner business-rules, and not fully-blown Given-When-Then statements.
 
-# 1) -------------------> We start with the story
+# 1) We start with the story
+
+Please find attached Mural boards
+
+Basic End to End Flow 
+https://app.mural.co/t/williamhill8008/m/williamhill8008/1710082768809/9d1ea0898d085f8ce2e45ef1f5565306399cf88e?sender=u5f805037fa58e2f494b09999
+
+Full End to End Flow
+https://app.mural.co/t/williamhill8008/m/williamhill8008/1703408440912/d2a13b565374213da87dbbb9a45476c9c50f3f63?sender=u5f805037fa58e2f494b09999
+
 
 (![](Start with Story.png)
 A)Driving the conversation to identify the essential acceptance criteria:-
@@ -79,10 +88,10 @@ I WANT to have regular medical examinations so that pilots fit to fly
 ( What < Some feature or capability > )
 
 
-# 2) ------------------> After describe out stories, need to a few high level AC to go with user stories
+# 2) After describe out stories, need to a few high level AC to go with user stories
 [![image](medicalAC.png)]()
 
-# 3--------------------> We understand the actors
+# 3 We understand the actors
 
 Actor / Personas:-
 Mike is 1st class pilot age 25
@@ -92,13 +101,13 @@ Silvia is second class pilot age 45
 Adam is 3rd class pilot age 29
 Adama is 3rd class pilot age 50
 
-# 4-------------------> We break the feature into tasks or steps
+# 4 We break the feature into tasks or steps
 Figure 2: We break a story into tasks or steps
 When we lay them out horizontally, we get something like this:
 ![image](Webreakthefeatureintotasksorsteps.png)
 
 
- # 5-------------------> Examples, Rules and Questions<-----------------------------------------------------
+ # 5 Examples, Rules and Questions
  # Finding examples
 Once we have an idea of the tasks or steps involved in achieving the story goal, we talk through concrete examples of these steps.
 Each example illustrates a different flow through the steps.
@@ -123,25 +132,13 @@ Adding a counter-example
 ![image] (![](Adding a counter-example.png))
 Figure 4: ^^^
 
- # 6-------------------> Examples and Consequences<-----------------------------------------------------
-
-In the map in Figure 4  I've added a second row in the examples, to represent the case where Stu submits an essay but forgot to use the spell checker. 
-
-There is something interesting happening in the 'Return to Student' column. I have added a task card (in yellow) called "Tess returns the essay to Stu", but this seems a little inconclusive. 
-
-The real goal is that Stu receives the essay to correct, not just that Tess has sent it. How do we know that Stu actually received it? To make sure this is the case, and to emphasise the actual outcome we want, 
-
-I’ve added a Consequence card (in mauve) next to the task where Tess returns the essay to Stu.
+ # 6Examples and Consequences
 
 Sometimes the map reads more clearly if you have a consequence for each example row.
 
 This is especially good for examples that involve calculations.
 
-Sometimes you want to record the consequences for each example more explicitly. 
-
-Figure 5 shows a Feature Map for a feature about what grade should be awarded for different results. 
-
-An average of 9 or more is an A, an average of 7-8 is a B, and so forth. 
+Sometimes you want to record the consequences for each example more explicitly.
 
 In this Feature Map, we add a special Consequence column that contains the consequence of each example row. 
 
@@ -160,7 +157,7 @@ If you have a lot of consequences that you want to express explicitly, a consequ
 ! [image](![](@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
-# 7 -------------------> Rules explain the examples, examples illustrate the rules<-----------------------------------------------------
+# 7 Rules explain the examples, examples illustrate the rules
 
 This lets us explore the scenarios in two dimensions. 
 
@@ -195,7 +192,7 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 ! [image](![](RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
 
 
-# 8 ------------------->Questions highlight uncertainty <-----------------------------------------------------
+# 8 Questions highlight uncertainty 
 
 The third element of Example Mapping comes into play when you discover something that no one knows. 
 
@@ -211,7 +208,7 @@ A step or task with a lot of questions indicates a lot of uncertainty, and might
 
 ! [image](![](Questionshighlightuncertainty.png))
 
-# 9 ------------------->Working with negative cases <-----------------------------------------------------
+# 9 Working with negative cases 
 
 The examples we've seen so far could be described as "happy-day cases", smooth flows through the story.
 
@@ -225,11 +222,6 @@ However, not all negative scenarios are useful. Field validation rules are fine 
 
 But a scenario checking for badly-formatted dates or numbers would normally be reserved for unit testing.
 
-For example, the rule that a teacher can return an essay if there is a mark of 6 or under begs the question: can a teacher return an essay if the marks are good? 
-
-This would justify a separate scenario:
-
-Tess records 9/9/9 for Stu's essay and tries to return it, but she is not allowed to.
 
 The new example could be mapped out like this:
 
@@ -249,16 +241,8 @@ The new example could be mapped out like this:
 
 # 9.2) --------------Let’s look at another requirement-------------------------------------------------------
 
-Let’s look at another requirement. Suppose, after some investigation, we learn that the History Department has a police where History exams get a score from 1 to 10. Furthermore, our system needs to cater for history essays.
-
+Let’s look at another requirement. Suppose, after some investigation
 To illustrate this rule properly, we really need two examples:
-
-one that shows that you can't enter a 0 mark for a History exam,
-and another to show that we can enter a 0 mark for some other subject.
-We could use examples like these:
-
-Tess records 0/1/2 for Stu's English essay and it is returned for correction
-Tess records 0/1/2 for Stu's History essay but she is not allowed save the marks
 
 We could add all of these examples to the feature map as shown here:
 
@@ -271,16 +255,13 @@ We could add all of these examples to the feature map as shown here:
 !image [] (![](Representing negative scenarios two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
-## The Exercise
+## The Exercise Summary
 
-The aim of this exercise is two-fold:
- - Create an Example Map identifying the key rules, examples and counter-examples in this domain.
- - Define BDD scenarios for these rules and examples
+The aim of this exercise was to two-fold:
+ - Created an Example Map identified the key rules, examples and counter-examples in this domain.
+ - Defined BDD scenarios for these rules and examples
 
-One simple approach is to specify these requirements in two feature files: 
- - `date_of_next_medical.feature`, which will contain the business rules and calculations related to figuring out when a given pilot is due for a medical examination.
- - `certificate_expiry.feature`, which will contain the business rules related to what happens when a medical certificate expires, depending on the age of the pilot and the type of license.
+## Full course BDD with Screenshoot
+https://miro.com/app/board/uXjVNIL1_l8=/
 
-## Getting feedback on your solution
-The sample solutions provided in this repository are one possible solution, but there are others. 
-If you are a student of the [Serenity Dojo Programme](https://www.serenity-dojo.com/), don't forget to submit your own worked solution in order to get feedback from the Serenity Dojo coaches.
+

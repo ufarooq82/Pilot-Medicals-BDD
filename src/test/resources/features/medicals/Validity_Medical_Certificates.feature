@@ -3,7 +3,7 @@
  README.md:40
 
 
- #1)-------------------> Start with Story<-----------------------------------------------------
+ #1) Start with Story
 Feature:FAA Medical Pilot Certificate Expiry
   In order to encourage pilots to renew their medical examinations on time in a fair manner
   As an airline regulator
@@ -11,12 +11,12 @@ Feature:FAA Medical Pilot Certificate Expiry
 
   For full description of the feature, see https://expansion.serenity-dojo.com/courses/take/serenity-dojo-agile-and-bdd-requirements-discovery/texts/37229814-bdd-challenge-pilot-medicals
 
-  #2) ---------------> After describe our stories, need to a few high level AC to go with user stories<-----------------------------------------------------
+  #2) After describe our stories, need to a few high level AC to go with user stories
   # 1st write user stories then bullet points
   # The key constraints , the key AC
   The key acceptance criteria:
   #Please check  readme.md file for High level AC converted into Table Diagram
-    README.md:83
+    README.md:92
   - License should only be  valid for reminder of the month
   - FAA validations should be measured from the last day of month
   - PILOTS     AGE       EXPIRES    DROPS ONCE EXPIRED / RULES
@@ -28,7 +28,7 @@ Feature:FAA Medical Pilot Certificate Expiry
     3RD CLASS  OVER 40   2 YEARS    CAN'T FLY
 
 
-  #3--------------------> We understand the actors<-----------------------------------------------------
+  #3 We understand the actors
   Most stories involve at least one, and sometimes several, actors.
   Understanding what actors are involved helps us reason about the tasks they need to perform to achieve the story goals.
   In our case, we can identify six actors:
@@ -41,7 +41,7 @@ Feature:FAA Medical Pilot Certificate Expiry
   Adam is 3rd class pilot age 29
   Adama is 3rd class pilot age 50
 
-  #4-------------------> We break the feature into tasks or steps<-----------------------------------------------------
+  #4 We break the feature into tasks or steps
   Next we break the feature into steps or tasks.
   How does the actor (or actors) interact with the application to achieve the goal of this story?
   What tasks do they need to perform?
@@ -57,9 +57,9 @@ Feature:FAA Medical Pilot Certificate Expiry
   d) FAA officer returns the license to the pilot for renewal
   e) FAA officer saves and update the license results
   #Please check  README.MD file for Figure 2: We break a story into tasks or steps
-  README.md:98
+  README.md:107
 
-  #5-------------------> Examples, Rules and Questions<-----------------------------------------------------
+  #5 Examples, Rules and Questions
   #Finding examples
   Once we have an idea of the tasks or steps involved in achieving the story goal, we talk through concrete examples of these steps.
   Each example illustrates a different flow through the steps.
@@ -70,7 +70,7 @@ Feature:FAA Medical Pilot Certificate Expiry
   If we map this out into the various tasks we identified earlier, we would get something like this:
 
   #Please check  README.MD file for Figure 3: We map our various tasks
-  README.md:111
+  README.md:120
 
   This example might be called a "happy path", but we don't stop here. We look for other examples that illustrate different flows through the story. At each step or task, we can ask questions like: "what else could happen here?" and "what other inputs would change the outcomes?"
 
@@ -81,9 +81,9 @@ Feature:FAA Medical Pilot Certificate Expiry
   If we map this on our feature map, we might get something like this:
 
    #Please check  README.MD file for Figure 4: Adding c counter-example
-  README.md:123
+  README.md:132
 
-  #6-------------------> Examples and Consequences<-----------------------------------------------------
+  #6 Examples and Consequences
 
   Sometimes the map reads more clearly if you have a consequence for each example row.
 
@@ -92,14 +92,14 @@ Feature:FAA Medical Pilot Certificate Expiry
   Sometimes you want to record the consequences for each example more explicitly.
 
   #Please check  README.MD file for Figure for @First-Class-Pilots-Rules-Journey-Scenarios
-  README.md:152
+  README.md:149
   #Please check  README.MD file for Figure for @Second-Class-Pilots-Rules-Journey-Scenarios
-  README.md:156
+  README.md:153
   #Please check  README.MD file for Figure for @Third-Class-Pilots-Rules-Journey-Scenarios
-  README.md:160
+  README.md:157
 
 
-  # 7 -------------------> Rules explain the examples, examples illustrate the rules<-----------------------------------------------------
+  # 7 Rules explain the examples, examples illustrate the rules
 
   In Example Mapping, we say that examples illustrate business rules, and business rules explain (or give context to) the examples.
 
@@ -108,20 +108,20 @@ Feature:FAA Medical Pilot Certificate Expiry
   To make this clearer, we can add a card to represent this rule at over the example title cards, as we do with Example Mapping:
 
   #Please check  README.MD file for Figure for RULES@First-Class-Pilots-Rules-Journey-Scenarios
-  README.md:187
+  README.md:184
   #Please check  README.MD file for Figure for RULES@Second-Class-Pilots-Rules-Journey-Scenarios
-  README.md:191
+  README.md:188
   #Please check  README.MD file for Figure for RULES@Third-Class-Pilots-Rules-Journey-Scenarios
-  README.md:195
+  README.md:192
 
-  # 8 ------------------->Questions highlight uncertainty <-----------------------------------------------------
+  # 8 Questions highlight uncertainty
 
   The third element of Example Mapping comes into play when you discover something that no one knows.
 
   #Please check  README.MD file for Figure for @Questions-Highlight-Uncertainty-Scenarios
-  README.md:212
+  README.md:209
 
-  # 9 ------------------->Working with negative cases <-----------------------------------------------------
+  # 9  Working with negative cases
 
   The examples we've seen so far could be described as "happy-day cases", smooth flows through the story.
 
@@ -132,15 +132,15 @@ Feature:FAA Medical Pilot Certificate Expiry
   Mick records license for pilot as expired and tries to return it, but he is not allowed to.
 
   #Please check  README.MD file for Figure for NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios
-  README.md:238
+  README.md:230
   #Please check  README.MD file for Figure for NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios
-  README.md:242
+  README.md:234
   #Please check  README.MD file for Figure for NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios
-  README.md:246
+  README.md:238
 
-  #9.1) ------------#Counter-examples complete the picture ^^^^-------------------------------------------------
+  #9.1) Counter-examples complete the picture
 
-  #9.2) --------------Let’s look at another requirement-------------------------------------------------------
+  #9.2) Let’s look at another requirement
 
   Let’s look at another requirement.
 
@@ -160,11 +160,11 @@ Feature:FAA Medical Pilot Certificate Expiry
 
   We could add all of these examples to the feature map as shown here:
   #Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
-  README.md:267
+  README.md:251
   #Please check  README.MD file for Figure for Representing negative scenarios two@Third-Class-Pilots-Rules-Journey-Scenarios
-  README.md:271
+  README.md:255
 
- # 10----------------------------- >From Feature Mapping to Test Automation<-----------------------------------------------------
+ # 10 From Feature Mapping to Test Automation
   One of the nice things about this approach is that we can start automation immediately.
 
   Each example maps to a clear sequence of business-level tasks, which in turn are easy to automate.
