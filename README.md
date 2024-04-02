@@ -2,6 +2,8 @@
 
 This repository contains a sample solution to the final exercise in the Serenity Dojo [BDD Requirements Discovery Training](https://expansion.serenity-dojo.com/courses/agile-requirements-discovery-blueprint) course.
 
+https://github.com/ufarooq82/Pilot-Medicals-BDD.git
+
 The goal of this exercise is to analyze the following user requirement, to define a set of business rules and key examples and counter-examples, 
 and to write a set of executable specifications corresponding to these rules and examples.
 
