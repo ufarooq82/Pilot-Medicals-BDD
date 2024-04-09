@@ -152,11 +152,11 @@ If you have a lot of consequences that you want to express explicitly, a consequ
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
-![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-![](img/@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/@Third-Class-Pilots-Rules-Journey-Scenarios.png)
 
 
 # 7 Rules explain the examples, examples illustrate the rules
@@ -191,7 +191,7 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-![](img/RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
+![](img/RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png)
 
 
 # 8 Questions highlight uncertainty 
@@ -254,7 +254,7 @@ We could add all of these examples to the feature map as shown here:
 
 # b) Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
 
-![](img/Representing%20negative%20scenarios%20two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/Representing%20negative%20scenarios%20two@Third-Class-Pilots-Rules-Journey-Scenarios.png)
 
 
 ## The Exercise Summary
