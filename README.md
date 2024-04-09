@@ -31,7 +31,7 @@ There are also some special rules about what happens when a medical certificate 
   
 All of the FAA validities are measured from the last day of the month.
 
-![image](medicals.png)
+![image](img/medicals.png)
 
 # Articles:-
 https://johnfergusonsmart.com/feature-mapping-a-lightweight-requirements-discovery-practice-for-agile-teams/
@@ -39,7 +39,7 @@ https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-exe
 
 # You can see the big picture in the following diagram:
 
-![image](Bigpicture.png)
+![image](img/Bigpicture.png)
 Figure 1: The Feature Mapping process^^ 
 
 You use Feature Mapping when you need to define the acceptance criteria for a story from the backlog.
@@ -65,7 +65,7 @@ Full End to End Flow
 https://app.mural.co/t/williamhill8008/m/williamhill8008/1703408440912/d2a13b565374213da87dbbb9a45476c9c50f3f63?sender=u5f805037fa58e2f494b09999
 
 
-(![](Start with Story.png)
+(![](img/Start with Story.png)
 A)Driving the conversation to identify the essential acceptance criteria:-
 
 Feature Mapping starts with a feature or story, typically from your existing product backlog.
@@ -91,7 +91,7 @@ I WANT to have regular medical examinations so that pilots fit to fly
 
 
 # 2) After describe out stories, need to a few high level AC to go with user stories
-[![image](medicalAC.png)]()
+[![image](img/medicalAC.png)]()
 
 # 3 We understand the actors
 
@@ -106,7 +106,7 @@ Adama is 3rd class pilot age 50
 # 4 We break the feature into tasks or steps
 Figure 2: We break a story into tasks or steps
 When we lay them out horizontally, we get something like this:
-![image](Webreakthefeatureintotasksorsteps.png)
+![image](img/Webreakthefeatureintotasksorsteps.png)
 
 
  # 5 Examples, Rules and Questions
@@ -119,7 +119,7 @@ For our first example, we explore what happens when Mike submits a valid license
 
 If we map this out into the various tasks we identified earlier, we would get something like this:
 
-![image](Happypathomage 01.png)
+![image](img/Happypathomage 01.png)
 Figure 3: Mapping examples ^^
 
 This example might be called a "happy path", but we don't stop here. We look for other examples that illustrate different flows through the story. At each step or task, we can ask questions like: "what else could happen here?" and "what other inputs would change the outcomes?"
@@ -131,7 +131,7 @@ For example, what happens if Mike submits expired license? We could write anothe
 If we map this on our feature map, we might get something like this:
 
 Adding a counter-example
-![image] (![](Adding a counter-example.png))
+![image] (![](img/Adding a counter-example.png))
 Figure 4: ^^^
 
  # 6Examples and Consequences
@@ -148,15 +148,15 @@ If you have a lot of consequences that you want to express explicitly, a consequ
 
 # a) @First-Class-Pilots-Rules-Journey-Scenarios figure 
 
-! [image](![](@First-Class-Pilots-Rules-Journey-Scenarios.png))
+! [image](![](img/@First-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+! [image](![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+! [image](![](img/@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
 # 7 Rules explain the examples, examples illustrate the rules
@@ -183,7 +183,7 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 
 # a) @First-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](RULES@First-Class-Pilots-Rules-Journey-Scenarios.png))
+! [image](![](img/RULES@First-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
@@ -191,7 +191,7 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
+! [image](![](img/RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
 
 
 # 8 Questions highlight uncertainty 
@@ -208,7 +208,7 @@ I like to place these cards under the step they relate to, to give them some con
 
 A step or task with a lot of questions indicates a lot of uncertainty, and might need refactoring into a story of it’s own
 
-! [image](![](Questionshighlightuncertainty.png))
+! [image](![](img/Questionshighlightuncertainty.png))
 
 # 9 Working with negative cases 
 
@@ -229,15 +229,15 @@ The new example could be mapped out like this:
 
 # a) NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios.png))
+!image [](![](img/NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # b) NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+!image [](![](img/NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # c) NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+!image [](![](img/NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # 9.1) ------------#Counter-examples complete the picture ^^^^-------------------------------------------------
 
@@ -250,11 +250,11 @@ We could add all of these examples to the feature map as shown here:
 
 # a) Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [] (![](Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+!image [] (![](img/Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # b) Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [] (![](Representing negative scenarios two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+!image [] (![](img/Representing negative scenarios two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
 ## The Exercise Summary
