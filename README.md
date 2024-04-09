@@ -65,7 +65,7 @@ Full End to End Flow
 https://app.mural.co/t/williamhill8008/m/williamhill8008/1703408440912/d2a13b565374213da87dbbb9a45476c9c50f3f63?sender=u5f805037fa58e2f494b09999
 
 
-(![](img/Start with Story.png)
+![](img/Start%20with%20Story.png)
 A)Driving the conversation to identify the essential acceptance criteria:-
 
 Feature Mapping starts with a feature or story, typically from your existing product backlog.
@@ -91,7 +91,7 @@ I WANT to have regular medical examinations so that pilots fit to fly
 
 
 # 2) After describe out stories, need to a few high level AC to go with user stories
-[![image](img/medicalAC.png)]()
+![image](img/medicalAC.png)
 
 # 3 We understand the actors
 
@@ -119,7 +119,7 @@ For our first example, we explore what happens when Mike submits a valid license
 
 If we map this out into the various tasks we identified earlier, we would get something like this:
 
-![image](img/Happypathomage 01.png)
+![image](img/Happypathomage%2001.png)
 Figure 3: Mapping examples ^^
 
 This example might be called a "happy path", but we don't stop here. We look for other examples that illustrate different flows through the story. At each step or task, we can ask questions like: "what else could happen here?" and "what other inputs would change the outcomes?"
@@ -131,7 +131,7 @@ For example, what happens if Mike submits expired license? We could write anothe
 If we map this on our feature map, we might get something like this:
 
 Adding a counter-example
-![image] (![](img/Adding a counter-example.png))
+![](img/Adding%20a%20counter-example.png)
 Figure 4: ^^^
 
  # 6Examples and Consequences
@@ -148,15 +148,15 @@ If you have a lot of consequences that you want to express explicitly, a consequ
 
 # a) @First-Class-Pilots-Rules-Journey-Scenarios figure 
 
-! [image](![](img/@First-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/@First-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png))
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](img/@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
 # 7 Rules explain the examples, examples illustrate the rules
@@ -183,15 +183,15 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 
 # a) @First-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](img/RULES@First-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/RULES@First-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](RULES@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+![](RULES@Second-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
-! [image](![](img/RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
+![](img/RULES@@THRID-Class-Pilots-Rules-Journey-Scenarios.png.png))
 
 
 # 8 Questions highlight uncertainty 
@@ -208,7 +208,7 @@ I like to place these cards under the step they relate to, to give them some con
 
 A step or task with a lot of questions indicates a lot of uncertainty, and might need refactoring into a story of it’s own
 
-! [image](![](img/Questionshighlightuncertainty.png))
+![](img/Questionshighlightuncertainty.png)
 
 # 9 Working with negative cases 
 
@@ -229,19 +229,19 @@ The new example could be mapped out like this:
 
 # a) NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](img/NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/NegativeCases@First-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # b) NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](img/NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/NegativeCases@Second-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # c) NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [](![](img/NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/NegativeCases@Third-Class-Pilots-Rules-Journey-Scenarios.png)
 
-# 9.1) ------------#Counter-examples complete the picture ^^^^-------------------------------------------------
+# 9.1) #Counter-examples complete the picture ^^^^
 
-# 9.2) --------------Let’s look at another requirement-------------------------------------------------------
+# 9.2) Let’s look at another requirement
 
 Let’s look at another requirement. Suppose, after some investigation
 To illustrate this rule properly, we really need two examples:
@@ -250,11 +250,11 @@ We could add all of these examples to the feature map as shown here:
 
 # a) Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [] (![](img/Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/Representing%20negative%20scenarios@Third-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # b) Please check  README.MD file for Figure for Representing negative scenarios@Third-Class-Pilots-Rules-Journey-Scenarios
 
-!image [] (![](img/Representing negative scenarios two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
+![](img/Representing%20negative%20scenarios%20two@Third-Class-Pilots-Rules-Journey-Scenarios.png))
 
 
 ## The Exercise Summary
