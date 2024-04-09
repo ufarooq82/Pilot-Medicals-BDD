@@ -187,7 +187,8 @@ Rather, the overall goal of the feature ("the teacher should be able to return a
 
 # b) @Second-Class-Pilots-Rules-Journey-Scenarios figure
 
-![](RULES@Second-Class-Pilots-Rules-Journey-Scenarios.png)
+
+![](img/@Second-Class-Pilots-Rules-Journey-Scenarios.png)
 
 # c) @Third-Class-Pilots-Rules-Journey-Scenarios figure
 
